@@ -1,5 +1,6 @@
 const readline = require('readline-sync')
-let a = "madam";
+let a = readline.question()
+// a=a.toLocaleLowerCase()
 var b= "";
 
 for(var i=a.length-1; i>=0; i--){
